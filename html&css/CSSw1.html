@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+    div{
+
+        background: white;
+        border: 6px solid whitesmoke;
+    
+    }
+
+    .section_grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+ 
+    .product4 {
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+
+    .navbar li{
+        overflow: auto;
+         float: left;
+         list-style:none;
+         margin: 63px 40px;
+    }
+
+ 
+    .hg{
+        background-image: url("bk.png");
+        width : 1000px;
+    }
+
+    .s_grid {
+        display: grid;
+        grid-column-start:2;
+        grid-column-end: 4;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr); 
+        padding: 10px;
+        height: 100px;
+
+    }
+    .product5 {
+         grid-row-start: 1;
+          grid-row-end: 2;
+         height: 150px;
+         width: 350px;
+         margin: auto;
+         padding: auto;
+     }
+    .product8 {
+
+       grid-row-start: 2;
+       grid-row-end: 3;
+       height: 150px;
+       width: 350px;
+       margin: auto;
+    }
+
+    .last{
+       
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+
+</style>
+</head>
+
+
+<body>
+<section class="section_grid">
+    <div>1 ppp</div>
+    <div class="hg">
+        <ul class="navbar"> 
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="frame.html">Booking</a></li>
+        <li><a href="#">Contact Us</a></li>
+     </ul>
+    </div>
+
+    <div>product 3</div>
+    <div class="product4">
+       <center><br /><br /> Select Your Accomadation:<br /><br /> 
+        <a href="#">Base Level Rooms</a><br /><br />
+        <a href="#">Premiun or Executive Rooms</a><br /><br />
+        <a href="#" >Junior Suite</a><br /><br />
+        <a href="#">The Suite</a><br /><br />
+        <a href="#">Presidential Suite</a>
+       </center>
+    </div>
+    <section class="s_grid">
+        <div class="product5">product 5 </div>
+        <div class="product5">product 6</div>
+        <div class="product5">product 7</div>
+        <div class="product8">product 8</div>
+        <div class="product8">poroduct 9</div>
+        <div class="product8">product 10</div>
+       </section>
+   <div class="last">product 11</div>
+
+</section>
+ 
+</body>
+</html>

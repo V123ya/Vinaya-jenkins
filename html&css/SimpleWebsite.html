@@ -1,0 +1,68 @@
+<!-- we use label see tut8 -->
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>FORMS</title>
+  <style>
+    div {
+        width: 400px;
+        height: 800px;
+        padding: 100px;
+        border: 30px solid black;
+        margin: 30px auto;
+        background-color: snow;
+    }
+</style>
+</head>
+<div>
+<body  style="background-color: Lightblue;">
+    
+    <h1> Hotel Registration Form</h1>
+  
+    <form >
+    
+          <br /><br /> Name:<input type="text" autofocus>  <br><br>
+           Email:<input type="email" required> <br><br>
+           Contact Number: <input type="tel" name="homeTelephone" pattern="[1-9]{1}[5-9]{9}"><br><br>
+           d/o/b:<input type="date"> <br> <br> 
+           Adhaar card number:<input type="number"> <br><br>
+           Address:<input type ="text"> <br><br>
+           Gender:Male<input type="radio">female<input type="radio"> <br><br>
+           <datalist id="browsersOptions">
+            <option value="Base level Rooms">
+            <option value="Premium or Executive Rooms">
+            <option value="Junior Suite">
+            <option value="The Suite">
+            <option value="Presidential Suite">
+          </datalist>
+          Select Room Type:
+          <input list="browsersOptions">
+          
+        <br /><br /><label>CheckIn: (date and time)</label>
+        <input type="datetime-local" name="bdaytime">
+    
+        <br /><br /><label>CheckOut: (date and time)</label>
+        <input type="datetime-local" name="bdaytime">
+        <br /> <br />
+        Payment mode:Net banking<input type="checkbox">
+        <r />Credit Card<input type="checkbox"><br><br><br>
+ 
+       
+        submit:<input type="submit"><br><br>
+    
+        Reset:<input type="reset"><br /><br /><br />
+
+       <p>Ratings:</p>
+    <p>*<meter value="35" min="0" max="100" low="40">35 out of 100 (Yellow in
+            Opera,FF )</meter>
+     <p>*** <meter value="0.76" high="60">76% (Green in Opera,FF )</meter>
+    <p>***** <meter value="96" low="90" high="94" max="100">96% (Red in Opera,FF
+                        )</meter>
+             
+       <br>
+       <br>
+                    
+    </form>
+    </div>
+</body>
+</html>

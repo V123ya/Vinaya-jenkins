@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+    div{
+
+        background: white;
+        border: 6px whitesmoke;
+    
+    }
+
+    .section_grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    .logo{
+        background-color: darksalmon;
+    }
+ 
+    .product4 {
+        grid-row-start: 2;
+        grid-row-end: 5;
+        background-color: darksalmon;
+    }
+    .topnav {
+        overflow: hidden;
+        list-style: none;
+        height: 30px;
+       justify-content: right;
+        text-decoration: none;
+    
+      }
+      
+      .topnav a {
+      float: right;
+        color: rgb(44, 43, 43);
+        padding: 10px;
+        font-size: 17px;
+        
+      }
+      
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+    .hg{
+        height: 95px;
+        width: 1300px;
+        grid-column-start: 2;
+        grid-column-end: 4;
+       background-color: darksalmon;
+    
+    }
+
+    .s_grid {
+        display: grid;
+        grid-column-start:2;
+        grid-column-end: 4;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr); 
+        padding: 8px;
+        height: 100px;
+    
+
+    }
+    .product5 {
+         grid-row-start: 1;
+          grid-row-end: 2;
+         height: 160px;
+         width: 300px;
+         margin: auto;
+         padding: auto;
+     }
+    .product8 {
+
+       grid-row-start: 3;
+       grid-row-end: 4;
+       height: 160px;
+       width: 300px;
+       margin: auto;
+       padding: auto;
+    }
+
+    .last{
+       
+        grid-row-start: 5;
+        grid-row-end: 6;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    footer{
+        text-align: center;
+        padding: 100px;
+        background-color: darksalmon;
+        color: white;
+          }
+
+
+</style>
+</head>
+
+
+<body>
+<section class="section_grid">
+    <div class= logo><center><img src="Aqua.png" height="100px"></center></div>
+    <div class="hg">
+        <ul class="topnav"> 
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="CSSw1.html">Accomadation</a></li>
+            <li><a href="frame.html">Booking</a></li>
+            <li><a href="CSSwebpage.html">Home</a></li>
+     </ul>
+    </div>
+
+    <div class="product4">
+       <center><br /><br /><h3> Select Your Accomadation:</h3><br /><br /> 
+        <a href="BaseCSSw.html">Base Level Rooms</a><br /><br />
+        <a href="premiumCSSw.html">Premium or Executive Rooms</a><br /><br />
+        <a href="jnSuiteCSSw.html" >Junior Suite</a><br /><br />
+        <a href="SuiteCSSw.html">The Suite</a><br /><br />
+        <a href="PsCSSw.html">Presidential Suite</a>
+       </center>
+    </div>
+    <section class="s_grid">
+        <div class="product5"><img src="pm1.png" width="300px" height="150px"></div>
+        <div class="product5"><img src="pm3.png" width=300px height="150px"></div>
+        <div class="product5"><img src="Premroom.png" width="300px" height="150px"></ba></div>
+        <div class="product8"><img src= "pm.png" width="300px" height="150px"></prem></div>
+        <div class="product8"><img src="prem.png" width="300px" height="150px" ></div>
+        <div class="product8"><img src="pm4.png" width="300px" height="150px" ></div>
+    
+       </section>
+   <div class="last">
+    <footer>
+        Contact Us - 
+        Phone Support : +91 8765438112 <br />
+        Email : Aquaplams@gmail.com
+        
+    </footer>
+   </div>
+
+</section>
+ 
+</body>
+</html>

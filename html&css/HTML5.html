@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script>
+        </script>
+        <form>
+            <br /><br /> Output Contro demo
+<form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+    0<input type="range" name="b" value="50" />100 +
+    <input type="number" name="a" value="10" /> =
+    <output name="result"></output>
+</form>
+
+    
+<form>
+    <br /><label>Select your house color:</label>
+    <input type="color" name ="houseColor" value="rgh(255,0,0)">
+
+    <br /><br /><label>Select a time for backup</label>
+    <input type="time" name="ScheduledTime" value="23:00" >
+
+    <br /><br /><label>Select a date to start the backup:</label>
+    <input type ="date" name="bdaytime" value="2022-01-10" min="2022-01-10">
+
+      <br /><br />
+      E-mail:<input type="email" name="myYahooEmailID"name ="myEmail.com" autofocus>
+
+      <br /><br />
+      Quantity(between 1 and 5):<input ="number" type="number" name="quantity">
+
+      <br/><br />
+      <input type="range"  name="points" min="1" max ="10">
+      <br /><br />
+
+      Home Page:<input type="url" name ="homePage" required> 
+      <br />
+      <br />
+      
+
+      <p>Score Card with thresholds defined:</p>
+    <p>Physics <meter value="35" min="0" max="100" low="40">35 out of 100 (Yellow in
+            Opera,FF )</meter>
+    <p>Maths <meter value="0.76" high="60">76% (Green in Opera,FF )</meter>
+    <p>Chemistry <meter value="96" low="90" high="94" max="100">96% (Red in Opera,FF
+            )</meter>
+      <br /><br />
+      
+      Datalist
+      <datalist id ="browserOptions">
+          <option value ="Internet Explorer">
+          <option value = "Firefox"></option>
+              <option value="Chrome"> </option>
+      </datalist>
+
+      Input control using the above Datalist
+      <input list="browserOptions">
+
+      <br /> <br />
+
+     
+
+
+      <br /><br />
+      <input type = "submit">
+</form>
+<script>
+</script>
+</html>
